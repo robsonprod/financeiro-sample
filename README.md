@@ -48,6 +48,8 @@ POST http://localhost:8080/api/v1/users/signIn
 }
 ```
 
+With authorization token "Bearer" and hash
+
 ``` bash
 POST http://localhost:8080/api/v1/authenticate
 {
@@ -89,8 +91,6 @@ POST http://localhost:8080/api/v1/empresa/pagar-funcionario
 
 ``` bash
 GET http://localhost:8080/api/v1/empresa/saldo/{id}
-{
-    
-}
+
 ```
 
